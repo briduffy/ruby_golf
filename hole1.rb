@@ -1,5 +1,8 @@
-def sum
-  inject(0) { |sum, x| sum + x }
+def sum_array
+  array = [1, 2, 3, 4, 5]
+  sum = 0
+  array.each { |i| sum += i }
+  puts sum
 end
 
-[1, 2, 3, 4, 5].sum
+sum_array
