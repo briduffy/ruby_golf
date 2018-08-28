@@ -5,9 +5,9 @@ def rock_paper_scissors
   computer = options.sample
   if (computer === user)
     puts "Tied!"
-  elsif (computer === "rock" && user === "scissors" || computer === "scissors" && user === "paper")
+  elsif (computer === "rock" && user === "scissors" || computer === "scissors" && user === "paper" || computer === "paper" && user === "rockß")
     puts "You lose!"
-  elsif (computer === "scissors" && user === "rock" || computer === "rock" && user === "paper")
+  elsif (computer === "scissors" && user === "rock" || computer === "rock" && user === "paper" || computer === "paper" && user === "scissors")
     puts "You Win!"
   end 
 end
